@@ -6,18 +6,16 @@ const readline = require("readline");
 
 const filePath = path.join(__dirname, "goals.json");
 
-// Ensure goals.json exists
 // Ensure goals.json exists and has valid JSON
 if (!fs.existsSync(filePath)) {
+  fs.writeFileSync(filePath, JSON.stringify([], null, 2));
+} else {
+  const data = fs.readFileSync(filePath, 'utf8');
+  if (!data.trim()) {
     fs.writeFileSync(filePath, JSON.stringify([], null, 2));
-  } else {
-    // Check if the file is empty, and initialize it with an empty array if needed
-    const data = fs.readFileSync(filePath, 'utf8');
-    if (!data.trim()) {
-      fs.writeFileSync(filePath, JSON.stringify([], null, 2));
-    }
   }
-  
+}
+
 // Read goals from file
 const readGoals = () => {
   const data = fs.readFileSync(filePath, "utf8");
@@ -66,39 +64,57 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-console.log("\nWelcome to your Learning Goals CLI!");
-console.log("Choose an option:");
-console.log("1. View Goals");
-console.log("2. Add Goal");
-console.log("3. Delete Goal");
-console.log("4. Exit");
+// Function to show the main menu and handle user input
+const showMainMenu = () => {
+  console.log("\nWelcome to your Learning Goals CLI!");
+  console.log("Choose an option:");
+  console.log("1. View Goals");
+  console.log("2. Add Goal");
+  console.log("3. Delete Goal");
+  console.log("4. Exit");
 
-rl.question("Enter your choice: ", (choice) => {
-  switch (choice.trim()) {
-    case "1":
-      displayGoals();
-      rl.close();
-      break;
-    case "2":
-      rl.question("Enter your new goal: ", (goal) => {
-        addGoal(goal);
+  rl.question("Enter your choice: ", (choice) => {
+    switch (choice.trim()) {
+      case "1":
+        displayGoals();
+        backToMenu();
+        break;
+      case "2":
+        rl.question("Enter your new goal: ", (goal) => {
+          addGoal(goal);
+          backToMenu();
+        });
+        break;
+      case "3":
+        displayGoals();
+        rl.question("Enter the goal number to delete: ", (index) => {
+          deleteGoal(parseInt(index, 10));
+          backToMenu();
+        });
+        break;
+      case "4":
+        console.log("Goodbye!");
         rl.close();
-      });
-      break;
-    case "3":
-      displayGoals();
-      rl.question("Enter the goal number to delete: ", (index) => {
-        deleteGoal(parseInt(index, 10));
-        rl.close();
-      });
-      break;
-    case "4":
+        break;
+      default:
+        console.log("Invalid choice!");
+        showMainMenu();
+        break;
+    }
+  });
+};
+
+// Function to ask if user wants to go back to the menu or continue
+const backToMenu = () => {
+  rl.question("\nDo you want to go back to the main menu? (y/n): ", (answer) => {
+    if (answer.toLowerCase() === "y") {
+      showMainMenu(); // Go back to the main menu
+    } else {
       console.log("Goodbye!");
-      rl.close();
-      break;
-    default:
-      console.log("Invalid choice!");
-      rl.close();
-      break;
-  }
-});
+      rl.close(); // Exit if user chooses 'n'
+    }
+  });
+};
+
+// Start the app by showing the main menu
+showMainMenu();
