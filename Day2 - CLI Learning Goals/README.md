@@ -38,22 +38,22 @@ To run the CLI tool, use the following command in your terminal:
     ```
 You will be prompted with a menu where you can choose to:
 
-1. View Goals: View your current learning goals.
-2. Add Goal: Add a new learning goal.
-3. Delete Goal: Delete a goal from the list.
-4. Exit: Exit the application.
+1. **View Goals**: View your current learning goals.
+2. **Add Goal**: Add a new learning goal.
+3. **Delete Goal**: Delete a goal from the list.
+4. **Exit**: Exit the application.
 After completing any action, you can return to the main menu or exit.
 
 ## How It Works
-** The application stores your learning goals in a goals.json file. **
-** It uses Node.js core modules like fs (File System) and readline for file handling and user interaction. **
-** The goals are saved in JSON format, allowing easy access and modification. **
+**The application stores your learning goals in a goals.json file.**
+**It uses Node.js core modules like fs (File System) and readline for file handling and user interaction.**
+**The goals are saved in JSON format, allowing easy access and modification.**
 
 ## Contributing
 Feel free to fork this repository, create pull requests, or open issues to improve the functionality of the app.
 
 License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the (MIT License).
 
 
 
