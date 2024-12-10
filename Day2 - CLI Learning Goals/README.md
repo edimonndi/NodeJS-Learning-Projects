@@ -45,9 +45,9 @@ You will be prompted with a menu where you can choose to:
 After completing any action, you can return to the main menu or exit.
 
 ## How It Works
-**The application stores your learning goals in a goals.json file.**
-**It uses Node.js core modules like fs (File System) and readline for file handling and user interaction.**
-**The goals are saved in JSON format, allowing easy access and modification.**
+- **The application stores your learning goals in a goals.json file.*
+- **It uses Node.js core modules like fs (File System) and readline for file handling and user interaction.*
+- **The goals are saved in JSON format, allowing easy access and modification.*
 
 ## Contributing
 Feel free to fork this repository, create pull requests, or open issues to improve the functionality of the app.
