@@ -1,2 +1,7 @@
+*.log
+node_modules/
+*.env
 NodeJS_Projects_Schedule.xlsx
-logs/debug.log
+secret.txt
+config/local.json
+
