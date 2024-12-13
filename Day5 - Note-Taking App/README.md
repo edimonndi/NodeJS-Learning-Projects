@@ -17,7 +17,7 @@ A simple CLI tool built with Node.js that allows you to add, view, and delete no
     ```
 
 ## Example Usage
-    ```markdown
+    ```bash
         Choose an option:
     1. Add Note
     2. View Notes
