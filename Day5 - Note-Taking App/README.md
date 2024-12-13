@@ -19,22 +19,22 @@ A simple CLI tool built with Node.js that allows you to add, view, and delete no
 ## Example Usage
     ```bash
         Choose an option:
-    1. Add Note
-    2. View Notes
-    3. Delete Note
-    4. Exit
-    Enter your choice: 1
-    Enter your note: Finish Day 5 app
-    Note added!
+        1. Add Note
+        2. View Notes
+        3. Delete Note
+        4. Exit
+        Enter your choice: 1
+        Enter your note: Finish Day 5 app
+        Note added!
 
-    Choose an option:
-    1. Add Note
-    2. View Notes
-    3. Delete Note
-    4. Exit
-    Enter your choice: 2
-    Your Notes:
-    [ID: 1734132073097] - Finish Day 5 app
+        Choose an option:
+        1. Add Note
+        2. View Notes
+        3. Delete Note
+        4. Exit
+        Enter your choice: 2
+        Your Notes:
+        [ID: 1734132073097] - Finish Day 5 app
     ```
 
 ---
