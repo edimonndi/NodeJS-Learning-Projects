@@ -64,7 +64,7 @@ This is a CLI-based **Text File Analyzer** built with Node.js. The app allows us
     * Type exit to quit the program.
 
 ## Example Output
-    ```bash
+    
     Welcome to the Text File Analyzer!
 
     Enter the path of the text file to analyze (or type "exit" to quit): example.txt
@@ -77,13 +77,12 @@ This is a CLI-based **Text File Analyzer** built with Node.js. The app allows us
 
     Enter the path of the text file to analyze (or type "exit" to quit): exit
     Exiting... Goodbye!
-
-    ```
+    
 ## Contributing
 Feel free to submit issues or pull requests if you have improvements for the project. Contributions are always welcome!
  
 ## License
-This project is open-source and available under the (MIT License).
+This project is open-source and available under the [MIT License](https://github.com/edimonndi/NodeJS-Learning-Projects/blob/main/LICENSE).
 
 ## Author
 * **Edmond T**
