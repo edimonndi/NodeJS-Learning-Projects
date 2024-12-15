@@ -51,3 +51,40 @@ This is a CLI-based **Text File Analyzer** built with Node.js. The app allows us
     ```
     
 3. The program will display:
+    ```bash
+    --- File Analysis Complete ---
+    File Path: example.txt
+    Total Lines: 20
+    Total Words: 120
+    Total Characters: 950
+    ```
+
+4. After analysis, you can:
+    * Enter another file path to analyze a new file.
+    * Type exit to quit the program.
+
+## Example Output
+    ```bash
+    Welcome to the Text File Analyzer!
+
+    Enter the path of the text file to analyze (or type "exit" to quit): example.txt
+
+    --- File Analysis Complete ---
+    File Path: example.txt
+    Total Lines: 20
+    Total Words: 120
+    Total Characters: 950
+
+    Enter the path of the text file to analyze (or type "exit" to quit): exit
+    Exiting... Goodbye!
+
+    ```
+## Contributing
+Feel free to submit issues or pull requests if you have improvements for the project. Contributions are always welcome!
+ 
+## License
+This project is open-source and available under the (MIT License).
+
+## Author
+* **Edmond T**
+* GitHub: [Edimonndi](https://github.com/edimonndi)
