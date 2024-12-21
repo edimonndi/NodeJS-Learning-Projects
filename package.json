@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-learning-projects",
+  "version": "1.0.0",
+  "description": "NodeJS Learning Projects is a collection of real-world projects built with Node.js. Each project focuses on practical concepts, from basic APIs to advanced applications. This repository is open-source and regularly updated to showcase the skills learned throughout the Node.js learning journey.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
