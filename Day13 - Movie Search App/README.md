@@ -58,7 +58,7 @@ The **Movie Search App** is a simple web application that allows users to search
 
 
 ## Folder Structure
-    ```graphql
+    ```bash
     Day13 - Movie Search App/
     ├── assets/
     │   ├── css/
@@ -75,6 +75,6 @@ API Key: ecef4bfc (already integrated in the app).
 
 Example API endpoint:
 
-    ```plaintext
+    ```bash
     http://www.omdbapi.com/?t=Inception&apikey=ecef4bfc
     ```
