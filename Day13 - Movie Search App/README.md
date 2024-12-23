@@ -74,5 +74,6 @@ This app uses the OMDb API to fetch movie data.
 API Key: ecef4bfc (already integrated in the app).
 
 Example API endpoint:
+    ```bash
     http://www.omdbapi.com/?t=Inception&apikey=ecef4bfc
-    
+    ```
