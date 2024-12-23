@@ -58,7 +58,7 @@ The **Movie Search App** is a simple web application that allows users to search
 
 
 ## Folder Structure
-    ```bash
+    
     Day13 - Movie Search App/
     ├── assets/
     │   ├── css/
@@ -67,14 +67,12 @@ The **Movie Search App** is a simple web application that allows users to search
     │       └── script.js         # JavaScript code for API calls
     ├── index.html                # Main HTML file
     └── README.md                 # Project documentation
-    ```
+    
 
 ## API Information
 This app uses the OMDb API to fetch movie data.
 API Key: ecef4bfc (already integrated in the app).
 
 Example API endpoint:
-
-    ```bash
     http://www.omdbapi.com/?t=Inception&apikey=ecef4bfc
-    ```
+    
