@@ -56,7 +56,7 @@ Day12 - Weather API/
 ```
 
 ## Screenshots
-![Screenshot](https://github.com/edimonndi/NodeJS-Learning-Projects/blob/main/Day12%20-%20Weather%20API/screenshot.PNG)
+![Screenshot](https://github.com/edimonndi/NodeJS-Learning-Projects/blob/main/Day12%20-%20Weather%20API/screenshot.png)
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify it.
