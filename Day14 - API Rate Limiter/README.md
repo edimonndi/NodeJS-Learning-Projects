@@ -81,7 +81,7 @@ The API uses the `express-rate-limit` package to enforce rate limits.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/edimonndi/NodeJS-Learning-Projects.git
 cd Day14-API-Rate-Limiter
 ```
 
