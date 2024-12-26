@@ -77,3 +77,5 @@ Example API endpoint:
     ```
     http://www.omdbapi.com/?t=Inception&apikey=ecef4bfc
     ```
+## License
+This project is open-source and available under the [MIT License](LICENSE).
