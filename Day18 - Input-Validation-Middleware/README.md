@@ -119,5 +119,5 @@ Day18-Input-Validation-Middleware/
 - `Dotenv`: Environment variable management
 
 ## License
-This project is licensed under the (MIT)[License].
+This project is licensed under the MIT[License].
 
