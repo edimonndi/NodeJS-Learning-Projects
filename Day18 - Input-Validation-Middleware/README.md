@@ -14,6 +14,7 @@ This project demonstrates how to add input validation middleware to a Node.js AP
 ---
 
 ## Project Structure
+```bash
 Day18-Input-Validation-Middleware/ 
 ├── app.js 
 ├── config/ 
@@ -27,6 +28,7 @@ Day18-Input-Validation-Middleware/
 ├── .env 
 ├── package.json 
 └── README.md
+```
 
 ## Getting Started
 
