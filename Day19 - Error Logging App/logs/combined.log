@@ -1,0 +1,21 @@
+2025-01-07 01:51:13 [INFO]: Server is running on http://localhost:3000
+2025-01-07 01:51:21 [INFO]: Incoming Request: GET /
+2025-01-07 01:51:22 [INFO]: Incoming Request: GET /meta.json
+2025-01-07 01:51:22 [INFO]: Incoming Request: GET /meta.json
+2025-01-07 01:52:03 [INFO]: Incoming Request: GET /
+2025-01-07 01:52:10 [INFO]: Incoming Request: GET /
+2025-01-07 01:57:14 [INFO]: Server is running on http://localhost:3000
+2025-01-07 01:57:20 [INFO]: Incoming Request: GET /api/users/
+2025-01-07 01:57:20 [INFO]: Fetched all users successfully.
+2025-01-07 01:57:50 [INFO]: Incoming Request: POST /api/users/
+2025-01-07 01:57:50 [INFO]: User created successfully: {"id":1736211470605,"name":"Edmond"}
+2025-01-07 01:57:57 [INFO]: Incoming Request: GET /api/users/
+2025-01-07 01:57:57 [INFO]: Fetched all users successfully.
+2025-01-07 01:58:58 [INFO]: Incoming Request: POST /api/users/
+2025-01-07 01:58:58 [INFO]: User created successfully: {"id":1736211538794,"name":"Edmond"}
+2025-01-07 01:59:07 [INFO]: Incoming Request: GET /api/users/
+2025-01-07 01:59:07 [INFO]: Fetched all users successfully.
+2025-01-07 01:59:46 [INFO]: Incoming Request: PUT /api/users/2
+2025-01-07 01:59:52 [INFO]: Incoming Request: PUT /api/users/2
+2025-01-07 02:00:00 [INFO]: Incoming Request: PATCH /api/users/2
+2025-01-07 02:00:03 [INFO]: Incoming Request: POST /api/users/2

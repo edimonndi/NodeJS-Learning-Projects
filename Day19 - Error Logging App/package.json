@@ -1,0 +1,19 @@
+{
+  "name": "day19-error-logging-app",
+  "version": "1.0.0",
+  "description": "An app to demonstrate error logging with Winston.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
