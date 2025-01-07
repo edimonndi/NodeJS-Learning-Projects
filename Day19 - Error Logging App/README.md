@@ -22,6 +22,12 @@ This project demonstrates error logging using Winston.
     ```bash
     npm run dev
     ```
+
+## Technologies Used
+- Node.js
+- Express.js
+- Winston (Logging)
+
 ## API Endpoints
 
 - 'GET /api/users': Fetch all users.
