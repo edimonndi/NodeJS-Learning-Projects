@@ -1,0 +1,15 @@
+{
+    "name": "day21-api-documentation",
+    "version": "1.0.0",
+    "description": "API Documentation using Swagger",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^4.6.3",
+        "winston": "^3.8.2"
+    }
+}
