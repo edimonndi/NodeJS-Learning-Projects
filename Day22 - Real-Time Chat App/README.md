@@ -79,7 +79,7 @@ The main server file that initializes the server, handles Socket.IO events, and 
 
 ## Screenshots
 Chat Interface
-(https://github.com/edimonndi/NodeJS-Learning-Projects/tree/main/Day22%20-%20Real-Time%20Chat%20App/chatscrshot.PNG)
+![Screenshot](https://github.com/edimonndi/NodeJS-Learning-Projects/tree/main/Day22%20-%20Real-Time%20Chat%20App/chatscrshot.PNG)
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
